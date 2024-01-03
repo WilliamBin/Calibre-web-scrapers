@@ -1,15 +1,20 @@
 # Calibre-web-scrapers
 Calibre中文刮削整理
-## 新增中国国家图书馆元数据源插件
-[中国国家图书馆ISBN Calibre Metadata 源插件](https://github.com/DoiiarX/NLCISBNPlugin)
+
 ## Calibre桌面版刮削
+### 新增中国国家图书馆元数据源插件(2024-01-03)
+[中国国家图书馆ISBN Calibre Metadata 源插件](https://github.com/DoiiarX/NLCISBNPlugin)
+### 豆瓣元数据源插件
+[NewDouban]( https://github.com/fugary/calibre-douban )
+### 元数据刮削流程
 先用[fugary]( https://github.com/fugary )制作的 [NewDouban]( https://github.com/fugary/calibre-douban )批量下载元数据与封面  
 再检查刚下载的元数据  
 ![image](https://user-images.githubusercontent.com/13869608/158048275-5460fc24-d2bb-4ba9-92ff-be063fac296c.png)  
 部分元数据不对的在填入豆瓣 id，或者书的 isbn后  
 左键单击填入剪切板内的isbn，右键单击后左键单击douban填入剪切板内的豆瓣 id  
 ![image](https://user-images.githubusercontent.com/13869608/158048325-fbdc9b11-656e-48dc-a277-de210ae82e8c.png)  
-再用 [StevenBaby]( https://github.com/StevenBaby )的 [doubanbook](https://github.com/StevenBaby/tools/tree/master/calibre)批量下载元数据  
+~~再用 [StevenBaby](https://github.com/StevenBaby)的 [doubanbook](https://github.com/StevenBaby/tools/tree/master/calibre)批量下载元数据~~
+已停止更新直接用[fugary](https://github.com/fugary)制作的 [NewDouban](https://github.com/fugary/calibre-douban)
 - 获取豆瓣id  
 将书名粘贴到搜索框后，通过封面选对版本，再右键复制链接，粘贴链接后取//之间的数字就是豆瓣id  
 ![image](https://user-images.githubusercontent.com/13869608/158048361-d310397c-d2cd-4058-ac5f-a0195202f712.png)  
