@@ -1,5 +1,7 @@
 # Calibre-web-scrapers
 Calibre中文刮削整理
+## 新增中国国家图书馆元数据源插件
+[中国国家图书馆ISBN Calibre Metadata 源插件]( [https://github.com/fugary/calibre-douban](https://github.com/DoiiarX/NLCISBNPlugin) )
 ## Calibre桌面版刮削
 先用[fugary]( https://github.com/fugary )制作的 [NewDouban]( https://github.com/fugary/calibre-douban )批量下载元数据与封面  
 再检查刚下载的元数据  
